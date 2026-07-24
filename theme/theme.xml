@@ -1,14 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-NCERT SANGRAM
-Production Blogger Theme
-Version: 1.0.0
--->
+<!DOCTYPE html>
+<html
+  b:css="false"
+  b:defaultwidgetversion="2"
+  b:layoutsVersion="3"
+  b:responsive="true"
+  expr:dir="data:blog.languageDirection"
+  expr:lang="data:blog.locale"
+  xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:b="http://www.google.com/2005/gml/b"
+  xmlns:data="http://www.google.com/2005/gml/data"
+  xmlns:expr="http://www.google.com/2005/gml/expr">
 
-<b:template
-xmlns="http://www.w3.org/1999/xhtml"
-xmlns:b="http://www.google.com/2005/gml/b"
-xmlns:data="http://www.google.com/2005/gml/data"
-xmlns:expr="http://www.google.com/2005/gml/expr">
+<head>
 
-</b:template>
+  <meta charset="UTF-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+
+  <title><data:view.title.escaped/></title>
+
+  <b:include data="blog" name="all-head-content"/>
+
+  <meta expr:content="data:view.description.escaped" name="description"/>
+
+  <meta content="#1565C0" name="theme-color"/>
+
+  <b:skin><![CDATA[
+/* NCERT SANGRAM CSS START */
+body{
+  margin:0;
+  font-family:Arial,sans-serif;
+  background:#f5f7fa;
+}
+/* NCERT SANGRAM CSS END */
+]]></b:skin>
+
+</head>
+
+<body>
+
+<h1>NCERT SANGRAM</h1>
+
+</body>
+
+</html>
