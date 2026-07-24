@@ -358,4 +358,192 @@ font-size:17px;
 
 </head>
 
-<body>
+<body> <!-- ========================= -->
+<!-- HEADER -->
+<!-- ========================= -->
+
+<header class='header'>
+
+<div class='container header-wrap'>
+
+<a class='logo' expr:href='data:blog.homepageUrl'>
+
+📚 NCERT SANGRAM
+
+</a>
+
+<nav class='menu'>
+
+<a expr:href='data:blog.homepageUrl'>Home</a>
+
+<a href='/search/label/Class%206'>Class 6</a>
+
+<a href='/search/label/Class%207'>Class 7</a>
+
+<a href='/search/label/Class%208'>Class 8</a>
+
+<a href='/search/label/Class%209'>Class 9</a>
+
+<a href='/search/label/Class%2010'>Class 10</a>
+
+<a href='/search/label/Class%2011'>Class 11</a>
+
+<a href='/search/label/Class%2012'>Class 12</a>
+
+<a href='/search/label/Quiz'>Quiz</a>
+
+<a href='/search/label/Notes'>Notes</a>
+
+</nav>
+
+</div>
+
+</header>
+
+<!-- ========================= -->
+<!-- HERO -->
+<!-- ========================= -->
+
+<section class='hero'>
+
+<div class='container'>
+
+<h1>
+
+Master NCERT • Crack Every Exam
+
+</h1>
+
+<p>
+
+NCERT Class 6–12 | UPSC | BPSC | Bihar Daroga | SSC
+
+</p>
+
+<a class='btn' href='/search/label/Quiz'>
+
+Start Quiz
+
+</a>
+
+<a class='btn secondary'
+
+href='/search/label/Notes'>
+
+Read Notes
+
+</a>
+
+</div>
+
+</section>
+
+<!-- ========================= -->
+<!-- ADSENSE -->
+<!-- ========================= -->
+
+<div class='container'>
+
+<div class='ads-box'>
+
+<!-- GOOGLE ADSENSE HEADER -->
+
+Header Advertisement
+
+</div>
+
+</div>
+
+<!-- ========================= -->
+<!-- SEARCH -->
+<!-- ========================= -->
+
+<div class='container search-box'>
+
+<form action='/search'>
+
+<input
+
+name='q'
+
+placeholder='Search Notes, Quiz, Chapter...'
+
+type='search'/>
+
+</form>
+
+</div>
+
+<!-- ========================= -->
+<!-- CLASS DASHBOARD -->
+<!-- ========================= -->
+
+<div class='container'>
+
+<h2 style='margin-bottom:25px;'>
+
+📚 NCERT Classes
+
+</h2>
+
+<div class='class-grid'>
+
+<a class='class-card' href='/search/label/Class%206'>
+
+Class 6
+
+</a>
+
+<a class='class-card' href='/search/label/Class%207'>
+
+Class 7
+
+</a>
+
+<a class='class-card' href='/search/label/Class%208'>
+
+Class 8
+
+</a>
+
+<a class='class-card' href='/search/label/Class%209'>
+
+Class 9
+
+</a>
+
+<a class='class-card' href='/search/label/Class%2010'>
+
+Class 10
+
+</a>
+
+<a class='class-card' href='/search/label/Class%2011'>
+
+Class 11
+
+</a>
+
+<a class='class-card' href='/search/label/Class%2012'>
+
+Class 12
+
+</a>
+
+</div>
+
+</div>
+
+<!-- ========================= -->
+<!-- SECOND ADSENSE -->
+<!-- ========================= -->
+
+<div class='container'>
+
+<div class='ads-box'>
+
+Middle Advertisement
+
+</div>
+
+</div>
