@@ -1,2 +1,5 @@
-# NCERT-SANGRAM-1
-Premium NCERT Quiz &amp; Notes Platform for UPSC, BPSC, Bihar Daroga, SSC and Competitive Exams.
+# NCERT SANGRAM
+
+Version: 0.1.0
+
+Status: Development
