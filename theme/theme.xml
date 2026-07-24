@@ -28,4 +28,508 @@
       name='theme-color'/>
 
 <meta content='index,follow'
-      name='robots'/>
+      name='robots'/><!-- Google Fonts -->
+<link rel='preconnect' href='https://fonts.googleapis.com'/>
+<link rel='preconnect' href='https://fonts.gstatic.com' crossorigin='anonymous'/>
+
+<link href='https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap'
+      rel='stylesheet'/>
+
+<!-- Theme CSS -->
+
+<b:skin><![CDATA[
+
+/* =====================================================
+   NCERT SANGRAM v0.1
+   Production Theme
+===================================================== */
+
+:root{
+
+--primary:#1565C0;
+--primary-dark:#0D47A1;
+--accent:#FFC107;
+
+--white:#ffffff;
+--black:#222222;
+
+--bg:#F5F7FA;
+
+--card:#ffffff;
+
+--border:#E5E7EB;
+
+--radius:16px;
+
+--shadow:0 8px 25px rgba(0,0,0,.08);
+
+}
+
+/* RESET */
+
+*{
+
+margin:0;
+
+padding:0;
+
+box-sizing:border-box;
+
+}
+
+html{
+
+scroll-behavior:smooth;
+
+}
+
+body{
+
+background:var(--bg);
+
+font-family:'Poppins',sans-serif;
+
+font-size:16px;
+
+color:var(--black);
+
+line-height:1.7;
+
+}
+
+img{
+
+display:block;
+
+max-width:100%;
+
+height:auto;
+
+}
+
+a{
+
+text-decoration:none;
+
+color:inherit;
+
+}
+
+ul{
+
+list-style:none;
+
+}
+
+.container{
+
+width:94%;
+
+max-width:1280px;
+
+margin:auto;
+
+}
+
+/* HEADER */
+
+.header{
+
+position:sticky;
+
+top:0;
+
+background:var(--primary);
+
+box-shadow:var(--shadow);
+
+z-index:999;
+
+}
+
+.header-inner{
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+padding:18px 0;
+
+}
+
+.logo{
+
+font-size:30px;
+
+font-weight:700;
+
+color:#fff;
+
+}
+
+.menu{
+
+display:flex;
+
+gap:28px;
+
+align-items:center;
+
+}
+
+.menu a{
+
+color:#fff;
+
+font-weight:600;
+
+transition:.25s;
+
+}
+
+.menu a:hover{
+
+opacity:.8;
+
+}
+
+/* HERO */
+
+.hero{
+
+padding:90px 20px;
+
+background:#fff;
+
+text-align:center;
+
+}
+
+.hero h1{
+
+font-size:52px;
+
+font-weight:700;
+
+color:var(--primary);
+
+}
+
+.hero p{
+
+margin-top:20px;
+
+font-size:20px;
+
+}
+
+.btn{
+
+display:inline-block;
+
+margin-top:30px;
+
+padding:15px 36px;
+
+border-radius:12px;
+
+font-weight:600;
+
+background:var(--primary);
+
+color:#fff;
+
+}
+
+.btn.secondary{
+
+background:var(--accent);
+
+color:#000;
+
+margin-left:12px;
+
+}
+
+/* SEARCH */
+
+.search{
+
+margin:45px auto;
+
+}
+
+.search input{
+
+width:100%;
+
+padding:18px;
+
+font-size:17px;
+
+border:1px solid var(--border);
+
+border-radius:12px;
+
+}
+
+/* ADS */
+
+.ads{
+
+margin:35px auto;
+
+background:#fff;
+
+border:2px dashed #ccc;
+
+padding:25px;
+
+text-align:center;
+
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+.header-inner{
+
+flex-direction:column;
+
+}
+
+.menu{
+
+flex-wrap:wrap;
+
+justify-content:center;
+
+gap:16px;
+
+}
+
+.hero h1{
+
+font-size:36px;
+
+}
+
+.hero p{
+
+font-size:17px;
+
+}
+
+}
+
+]]></b:skin>
+
+</head><body>
+
+<!--==========================
+ HEADER
+===========================-->
+
+<header class='header'>
+
+<div class='container header-inner'>
+
+<a class='logo'
+   expr:href='data:blog.homepageUrl'>
+
+📚 NCERT SANGRAM
+
+</a>
+
+<nav class='menu'>
+
+<a expr:href='data:blog.homepageUrl'>
+Home
+</a>
+
+<a href='/search/label/Class%206'>
+Class 6
+</a>
+
+<a href='/search/label/Class%207'>
+Class 7
+</a>
+
+<a href='/search/label/Class%208'>
+Class 8
+</a>
+
+<a href='/search/label/Class%209'>
+Class 9
+</a>
+
+<a href='/search/label/Class%2010'>
+Class 10
+</a>
+
+<a href='/search/label/Class%2011'>
+Class 11
+</a>
+
+<a href='/search/label/Class%2012'>
+Class 12
+</a>
+
+<a href='/search/label/Notes'>
+Notes
+</a>
+
+<a href='/search/label/Quiz'>
+Quiz
+</a>
+
+</nav>
+
+</div>
+
+</header>
+
+<!--==========================
+ HERO
+===========================-->
+
+<section class='hero'>
+
+<div class='container'>
+
+<h1>
+
+NCERT SANGRAM
+
+</h1>
+
+<p>
+
+Premium Notes • Quiz • PYQ • Mock Test
+
+</p>
+
+<a class='btn'
+href='/search/label/Quiz'>
+
+Start Quiz
+
+</a>
+
+<a class='btn secondary'
+href='/search/label/Notes'>
+
+Read Notes
+
+</a>
+
+</div>
+
+</section>
+
+<!--==========================
+ SEARCH
+===========================-->
+
+<div class='container search'>
+
+<form action='/search'>
+
+<input
+type='search'
+name='q'
+placeholder='Search Chapter, Notes, Quiz...'/>
+
+</form>
+
+</div>
+
+<!--==========================
+ ADSENSE
+===========================-->
+
+<div class='container'>
+
+<div class='ads'>
+
+<!-- Google AdSense 728x90 -->
+
+Top Banner Ad
+
+</div>
+
+</div>
+
+<!--==========================
+ CLASS DASHBOARD
+===========================-->
+
+<section>
+
+<div class='container'>
+
+<h2>
+
+Choose Your Class
+
+</h2>
+
+<div class='class-grid'>
+
+<a class='class-card'
+href='/search/label/Class%206'>
+
+Class 6
+
+</a>
+
+<a class='class-card'
+href='/search/label/Class%207'>
+
+Class 7
+
+</a>
+
+<a class='class-card'
+href='/search/label/Class%208'>
+
+Class 8
+
+</a>
+
+<a class='class-card'
+href='/search/label/Class%209'>
+
+Class 9
+
+</a>
+
+<a class='class-card'
+href='/search/label/Class%2010'>
+
+Class 10
+
+</a>
+
+<a class='class-card'
+href='/search/label/Class%2011'>
+
+Class 11
+
+</a>
+
+<a class='class-card'
+href='/search/label/Class%2012'>
+
+Class 12
+
+</a>
+
+</div>
+
+</div>
+
+</section>
